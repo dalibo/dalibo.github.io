@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>Some PostgreSQL tools developped by DALIBO, the french PostgreSQL company</title>
+    <title>Some PostgreSQL tools and forks, developped by DALIBO, the french PostgreSQL company</title>
     <link rel="stylesheet" type="text/css" href="assets/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/grid.css">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
@@ -13,9 +13,7 @@
 
       // Put custom repo URL's in this object, keyed by repo name.
       var repoUrls = {
-       // "bootstrap": "http://twitter.github.com/bootstrap/",
-       // "finagle": "http://twitter.github.com/finagle/",
-       // "hogan.js": "http://twitter.github.com/hogan.js/"
+        "pgbadger": "http://projects.dalibo.org/pgbadger/"
       };
 
       function repoUrl(repo) {
@@ -24,8 +22,6 @@
 
       // Put custom repo descriptions in this object, keyed by repo name.
       var repoDescriptions = {
-      //  "bootstrap": "An HTML, CSS, and JS toolkit designed to kickstart development of webapps and sites",
-      //  "naggati2": "A protocol builder for Netty using Scala 2.8"
       };
 
       function repoDescription(repo) {
@@ -35,7 +31,7 @@
 
       // Put custom repo language in this object, keyed by repo name
       var repoLangs = {
-         "pgdocs_fr" : "XML"      
+         "yang" : "PHP"      
       }
 
       function repoLang(repo) {
@@ -215,14 +211,45 @@
 
     })(jQuery);
     </script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-637331-8']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
   </head>
   <body>
     <div id="wrapper" class="grid clearfix">
       <div id="main" class="grid-1">
         <div id="logo"><h1>Open source projects and forks</h1></div>
-        <h1></h1>
-        <p>Check <a href="http://blog.taadeem.net">my blog</a></p>
-        <p>Learn about <a href="http://dalibo.com/">dalibo</a></p>
+        <h1>PostgreSQL tools and forks</h1>
+	<p>DALIBO is the leading PostgreSQL company in France, 
+	providing <a href="http://www.dalibo.com/services" alt="PostgreSQL audit optimisation">services</a>, 
+	<a href="http://www.dalibo.com/formations" alt="formation PostgreSQL">training</a> and 
+	<a href="http://www.dalibo.com/support" alt="PostgreSQL Support">support</a>since 2005. 
+	<br/>
+	These are the open source projects we're currently working on. You can find more 
+Please visit <a href="http://www.dalibo.org/en/accueil">dalibo.org</a> for more information about our contributions to the PostgreSQL community.
+	</p>
+	<p>
+	DALIBO est le spécialiste de PostgreSQL en France et propose
+        <a href="http://www.dalibo.com/services" alt="PostgreSQL audit optimisation">services</a>, 
+        <a href="http://www.dalibo.com/formations" alt="formation PostgreSQL">formation</a> et 
+        <a href="http://www.dalibo.com/support" alt="PostgreSQL Support">support</a>depuis 2005. 
+        <br/>
+        Voici les projets open source sur lequels nous travaillons actuellement. Pour plus d'infos sur nos contributions
+        à la communauté PostgreSQL, rendez-vous sur <a href="http://www.dalibo.org/en/accueil">dalibo.org</a>.
+	</p>	
       </div>
 
       <div class="grid grid-3">
@@ -233,7 +260,7 @@
             <br>
             <a href="https://github.com/dalibo"><span id="num-members">&nbsp;</span> members</a>
           </p>
-          <p class="email"><a href="mailto:contact@dalibo.com">damien@dalibo.com</a></p>
+          <p class="email"><a href="mailto:contact@dalibo.com">contact@dalibo.com</a></p>
         </div>
 
         <div id="recently-updated" class="grid-2 omega header">
