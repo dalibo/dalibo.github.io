@@ -186,8 +186,12 @@ li.repo h3 {
   pointer-events: none;
 }
 
-.repo.javascript:after {
+.repo.shell:after {
   border-right-color: #333;
+}
+
+.repo.javascript:after {
+  border-right-color: #ffa07a;
 }
 
 .repo.scala:after {
@@ -198,11 +202,11 @@ li.repo h3 {
   border-right-color: #cc1100;
 }
 
-.repo.shell:after {
+.repo.sql:after {
   border-right-color: #3cb371:
 }
 
-.repo.C:after{
+.repo.c:after{
   border-right-color: #ba55d3;
 }
 
