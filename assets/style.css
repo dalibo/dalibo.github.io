@@ -194,13 +194,26 @@ li.repo h3 {
   border-right-color: #7ac9de;
 }
 
-.repo.ruby:after {
+.repo.perl:after {
   border-right-color: #cc1100;
+}
+
+.repo.shell:after {
+  border-right-color: #3cb371:
+}
+
+.repo.C:after{
+  border-right-color: #ba55d3;
 }
 
 .repo.java:after {
   border-right-color: #cc8300;
 }
+
+.repo.php:after {
+  border-right-color: #cc8300;
+}
+
 
 .repo.python:after {
   border-right-color: #6aad2d;
