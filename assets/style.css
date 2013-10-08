@@ -38,7 +38,7 @@ a:hover {
 }
 
 #main {
-  height: 400px;
+  height: 450px;
   text-align: center;
 }
 
@@ -67,11 +67,12 @@ a:hover {
 }
 
 #logo {
-  width: 180px;
-  height: 82px;
-  margin: 15px 0 0 15px;
+  width: 120px;
+  height: 120px;
+  margin: 15px 0 0 50px;
   background: url("logo.png");
   text-indent: -99999px;
+  background-repeat: no-repeat;
 }
 
 #logo h1 {
