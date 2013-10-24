@@ -25,16 +25,16 @@
       "properties": {"title": "Paris"}
       },
     { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [4.8022,45.7567]},
-      "properties": {"title": "Lyon"}
+      "geometry": {"type": "Point", "coordinates": [2.3200,48.8600]},
+      "properties": {"title": "Paris"}
       },
     { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [4.8322,45.7197]},
-      "properties": {"title": "Lyon"}
+      "geometry": {"type": "Point", "coordinates": [2.3722,48.7997]},
+      "properties": {"title": "Paris"}
       },
     { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [4.8422,45.7597]},
-      "properties": {"title": "Lyon"}
+      "geometry": {"type": "Point", "coordinates": [2.3666,48.8548]},
+      "properties": {"title": "Paris"}
       },
     { "type": "Feature",
       "geometry": {"type": "Point", "coordinates": [1.2611,45.8336]},
