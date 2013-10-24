@@ -1,21 +1,20 @@
 { "type": "FeatureCollection",
   "features": [
     { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [48.8567, 2.3508]},
-      "properties": {"Ville/Town": "Paris"}
+      "geometry": {"type": "Point", "coordinates": [2.3508, 48.8567]},
+      "properties": {"title": "Paris"}
       },
     { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [48.8567, 2.3508]},
-      "properties": {"Ville/Town": "Paris"}
+      "geometry": {"type": "Point", "coordinates": [2.3508,48.8567]},
+      "properties": {"title": "Paris"}
       },
     { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [45.8336,1.2611]},
-      "properties": {"Ville/Town": "Limoges"}
+      "geometry": {"type": "Point", "coordinates": [1.2611,45.8336]},
+      "properties": {"title": "Limoges"}
       },
     { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [43.95, 4.81]},
-      "properties": {"Ville/Town": "Avignon"}
-      },
+      "geometry": {"type": "Point", "coordinates": [4.81,43.95]},
+      "properties": {"title": "Avignon"}
+      }
  ]
 }
-
