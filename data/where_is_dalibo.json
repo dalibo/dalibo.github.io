@@ -1,12 +1,40 @@
 { "type": "FeatureCollection",
   "features": [
     { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [2.3508, 48.8567]},
+      "geometry": {"type": "Point", "coordinates": [-1.5528,47.2181]},
+      "properties": {"title": "Nantes"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [5.7222,45.2002]},
+      "properties": {"title": "Grenoble"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [7.7486,48.5844]},
+      "properties": {"title": "Strasbourg"}
+      },      
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [4.8422,45.7597]},
+      "properties": {"title": "Lyon"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [2.3600,48.8700]},
       "properties": {"title": "Paris"}
       },
     { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [2.3508,48.8567]},
+      "geometry": {"type": "Point", "coordinates": [2.3500,48.8500]},
       "properties": {"title": "Paris"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [4.8022,45.7567]},
+      "properties": {"title": "Lyon"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [4.8322,45.7197]},
+      "properties": {"title": "Lyon"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [4.8422,45.7597]},
+      "properties": {"title": "Lyon"}
       },
     { "type": "Feature",
       "geometry": {"type": "Point", "coordinates": [1.2611,45.8336]},
