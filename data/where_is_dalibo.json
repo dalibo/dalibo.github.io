@@ -1,0 +1,21 @@
+{ "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [48.8567, 2.3508]},
+      "properties": {"Ville/Town": "Paris"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [48.8567, 2.3508]},
+      "properties": {"Ville/Town": "Paris"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [45.8336,1.2611]},
+      "properties": {"Ville/Town": "Limoges"}
+      },
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [43.95, 4.81]},
+      "properties": {"Ville/Town": "Avignon"}
+      },
+ ]
+}
+
